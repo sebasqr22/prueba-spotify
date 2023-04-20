@@ -12,18 +12,5 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  downloadImage() {
-    const album = document.getElementById('img')
-
-
-
-    // @ts-ignore
-    html2canvas(album, {scrollY: -window.scrollY}).then(function(canvas) {
-      var img = canvas.toDataURL();
-      window.open(img);
-    });
-  }
-
-  //Creating dynamic link that automatically click
+  
 }

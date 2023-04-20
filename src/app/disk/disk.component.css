@@ -1,0 +1,96 @@
+.album-cover {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-blur: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    z-index: 0;
+    box-shadow: 6px 10px 10px black;
+}
+
+.album-info {
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.album-info h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.album-info h2 {
+    font-size: 18px;
+}
+
+.album-info h3 {
+    font-size: 14px;
+}
+
+.song-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.column {
+    width: 45%;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.eye{
+    position:absolute;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+}
+
+.heaven
+{
+    position:absolute;
+    height:385px;
+    width:400px;
+    /**/
+    margin-left: 200px;
+    margin-top: 50px;
+    z-index: -1;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+
+.texto {
+    color: white;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
